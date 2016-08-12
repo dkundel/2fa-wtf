@@ -59,9 +59,9 @@ nav {
 }
 
 section img {
-  width: 100%;
   max-width: 500px;
   text-align: center;
+  max-height: 400px;
 }
 
 .light {
@@ -172,4 +172,9 @@ footer {
 
 #strengthTestText {
   margin-top: 10px;
+}
+
+img[alt^="use-logo"] {
+  max-height: 100px;
+  width: auto;
 }
