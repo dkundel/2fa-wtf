@@ -1,0 +1,39 @@
+{
+  "name": "2fa-wtf",
+  "version": "1.0.0",
+  "description": "Learn about what 2FA is about, how to use it and how to implement it",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkundel/2fa-wtf.git"
+  },
+  "keywords": [
+    "2fa"
+  ],
+  "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkundel/2fa-wtf/issues"
+  },
+  "homepage": "https://github.com/dkundel/2fa-wtf#readme",
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "kramed": "^0.5.6",
+    "lite-server": "^2.2.2",
+    "mkdirp": "^0.5.1",
+    "nodemon": "^1.10.0",
+    "npm-run-all": "^2.3.0",
+    "recursive-readdir": "^2.0.0"
+  },
+  "scripts": {
+    "build:jade": "node template.js",
+    "build:images": "mkdirp dist/images && cp -R ../images dist && cp -R images dist",
+    "build:css": "mkdirp dist/css && cp -R css dist",
+    "build:js": "mkdirp dist/scripts && cp -R scripts dist",
+    "build": "npm-run-all -p build:*",
+    "serve": "lite-server dist",
+    "watch": "nodemon --watch .. --ignore dist/ -e md,jade,js,css,png,svg --ignore node_modules --exec \"npm run build\"",
+    "dev": "npm-run-all -p watch serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
