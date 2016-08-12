@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"></html><head><meta charset="UTF-8"/><title>2FA, WTF?</title><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i"/><link rel="stylesheet" href="css/normalize.css"/><link rel="stylesheet" href="css/skeleton.css"/><link rel="stylesheet" href="css/style.css"/></head><body><header><div id="logo"><strong>2FA</strong><span class="light">WTF?</span></div><nav><a href="/" class="nav-link">Why?</a><a href="/use" class="nav-link">Use</a><a href="/implement" class="nav-link">Implement</a></nav></header><div id="main" role="main"><section class="index"><h1 id="two-factor-authentication-what-the-f-k">Two-Factor Authentication? What the F**k?</h1>
+<p>So you want to know about Two-Factor Authentication (2FA)? Or do you really? Maybe a friend just gave you this link. Well whatever it is you are now here. You might as well learn something! We hope to make this as boring as possible but just to be safe...have a look at this cute animal Gif first (and yes it&#39;s Gif not Gif):</p>
+<p><img src="http://i.giphy.com/3xz2BCohVTd7h2Kvfi.gif" alt=""></p>
+<p>Alright I hope I got your attention back. Let&#39;s talk 2FA! </p>
+<h2 id="what-does-two-factor-authentication-mean">What does Two-Factor Authentication mean?</h2>
+<p>2FA is a security process that involves a user proving their identity with two different forms of identification. There are typically three different types of identification:</p>
+<ul>
+<li>Something you know</li>
+<li>Something you have</li>
+<li>Something you are</li>
+</ul>
+<p>Sounds weird? Think about the last time you withdrew money from an ATM. That was most likely using 2FA. You provided a bank card - something that you have - and a PIN - something that you know. This way the bank tries to make sure that someone needs to get hold of both in order to pretend they are you. </p>
+<h2 id="why-do-i-need-2fa">Why do I need 2FA?</h2>
+<p>Imagine someone would just need those 4 digits of your PIN? But then again your 4 digits are hopefully random and not your birthday or the one of someone close to you. So that might be still safe(ish).</p>
+<p>But now comes the problem. The web! For an attacker to attack your bank account they need to go to a physical ATM that has hopefully some survaillance going on. And for a burglar to break into your house they need to find your house and pick the lock. But for your online profiles attackers can be anywhere, easily hide themselves and on top of that have way better tools to &quot;pick your lock&quot; aka hack your password.</p>
+<p>That sounds bad but it might come worse. You might be using a terrible password! In fact quite a lot of people do. And hackers are aware of that. Just look at this top 10 of passwords from 2015 provided by <a href="https://www.teamsid.com/worst-passwords-2015/">SplashData</a> and is based on <strong>2 million leaked passwords</strong>:</p>
+<ol>
+<li>123456</li>
+<li>password</li>
+<li>12345678</li>
+<li>qwerty</li>
+<li>12345</li>
+<li>123456789</li>
+<li>football</li>
+<li>1234</li>
+<li>1234567</li>
+<li>baseball</li>
+</ol>
+<p>Is yours among them? Yes? Better change it quickly! We&#39;ll wait here. </p>
+<p>Is yours not among them? Great! Or sort of. You might still be using a weak password. The folks over at <a href="https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/">Dropbox developed a great password strength tester</a>. You can use it below to test your password. And no worries we won&#39;t store your password or send it somewhere.</p>
+<div id="strengthTest"></div>
+
+<p>Alright hopefully you have a safe password now. But I must disappoint you (again). That alone doesn&#39;t protect you from the evil that is on the internet. You know people like this guy:</p>
+<p><img src="http://i.giphy.com/YQitE4YNQNahy.gif" alt=""></p>
+<p>Why? Because hackers might not have to crack your password. Most hackers are good at what is called <a href="https://en.wikipedia.org/wiki/Social_engineering_(security">&quot;Social Engineering&quot;</a>). This means they might be gaining access to your account without ever cracking your password. Take Matt Honan as an example. In 2012, he got his whole digital life destroyed because he didn&#39;t have 2FA enabled. But don&#39;t take it from a random website like this but rather from the person who got attacked himself: <a href="http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/">How Apple and Amazon Security Flaws Led to My Epic Hacking</a>.</p>
+<h2 id="scared">Scared?</h2>
+<p>Alright so you might be scared now. Well good! The internet is a dangerous place. But please don&#39;t go ahead and just unplug your internet and throw away your smartphone. We are here for you! This website&#39;s whole purpose is 2FA. So who would we be if we would let you down and now teach you how to use 2FA! </p>
+<h4 id="-how-to-use-2fa-use"><a href="/use">How to use 2FA</a></h4>
+<h2 id="are-you-a-developer">Are you a developer?</h2>
+<h4 id="-learn-how-to-implement-2fa-on-your-service-implement"><a href="/implement">Learn how to implement 2FA on your service!</a></h4>
+</section></div><footer><p>Created by <a href="https://github.com/dkundel" target="_blank">Dominik Kundel </a></p></footer><script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.3.0/zxcvbn.js"></script><script src="/scripts/main.js"></script></body>
