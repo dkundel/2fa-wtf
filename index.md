@@ -6,7 +6,7 @@ Or do you really? Maybe a friend just gave you this link. Well whatever it is yo
 
 We hope to make this as boring as possible but just to be safe...have a look at this cute animal GIF first (and yes it's GIF not GIF):
 
-![](http://i.giphy.com/3xz2BCohVTd7h2Kvfi.gif)
+![](https://i.giphy.com/3xz2BCohVTd7h2Kvfi.gif)
 
 Alright I hope I got your attention back. **Let's talk 2FA!** 
 
@@ -40,7 +40,7 @@ That sounds bad but it might come worse. You might be using a terrible password!
 
 Is yours among them? Yes? Better change it quickly! We'll wait here. 
 
-![](http://i.giphy.com/26BRuo6sLetdllPAQ.gif)
+![](https://i.giphy.com/26BRuo6sLetdllPAQ.gif)
 
 Is yours not among them? Great! Or sort of. You might still be using a weak password. The folks over at [Dropbox developed a great password strength tester](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/). You can use it below to test your password. And no worries we won't store your password or send it somewhere.
 
@@ -50,7 +50,7 @@ Is yours not among them? Great! Or sort of. You might still be using a weak pass
 
 Alright hopefully you have a safe password now. But I must disappoint you (again). That alone doesn't protect you from the evil that is on the internet. Like this guy:
 
-![](http://i.giphy.com/YQitE4YNQNahy.gif)
+![](https://i.giphy.com/YQitE4YNQNahy.gif)
 
 Why? Because hackers might not have to crack your password. Most hackers are good at what is called ["Social Engineering"](https://en.wikipedia.org/wiki/Social_engineering_(security)). This means they might be gaining access to your account without ever cracking your password. Take Matt Honan for example. In 2012, he got his whole digital life destroyed because he didn't have 2FA enabled. But don't take it from a random website like this one but instead from the person who got attacked himself: [How Apple and Amazon Security Flaws Led to My Epic Hacking](http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/).
 
